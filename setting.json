@@ -2,7 +2,7 @@
   "name-web":"College Football News",
   "author":"football",
   "remove-comment-html":true,
-  "target":"https://collegefootballnews.com",
+  "target":"https://collegefootballireland.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"https://collegefootballnews.com",
+      "target":"https://collegefootballireland.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://collegefootballnews.com",
+          "target":"https://collegefootballireland.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"https://collegefootballnews.com",
+      "target":"https://collegefootballireland.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
@@ -49,7 +49,7 @@
       "replace-string":[]
     },
     {
-      "target":"https://collegefootballnews.com",
+      "target":"https://collegefootballireland.com",
       "element-remove-selector":[
         ".box-header",
         ".box-language",
@@ -59,7 +59,7 @@
       "replace-string":[]
     },
     {
-      "target":"https://collegefootballnews.com",
+      "target":"https://collegefootballireland.com",
       "element-remove-selector":[
         "header",
         ".trail-wrapper",
